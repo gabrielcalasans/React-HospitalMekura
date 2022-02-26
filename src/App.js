@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Header from './components/Header';
+import Home from './pages/Home';
+import Contato from './pages/Contato';
+import Cardiologia from './pages/especialidades/Cardiologia';
+import Urologia from './pages/especialidades/Urologia';
+import Cronicas from './pages/especialidades/Cronicas';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/contato" element={<Contato />} />         
+          <Route path="/especialidades/cardiologia" element={<Cardiologia />} /> 
+          <Route path="/especialidades/urologia" element={<Urologia />} />  
+          <Route path="/especialidades/cronicas" element={<Cronicas />} />  
+        </Routes>
+      </Router>
     </div>
   );
 }
