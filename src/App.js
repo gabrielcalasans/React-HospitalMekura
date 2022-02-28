@@ -25,7 +25,7 @@ function App() {
           <Route path="/contato" element={<Contato />} />         
           <Route path="/especialidades/cardiologia" element={<Especialidades especialidade={"Cardiologia"} />} /> 
           <Route path="/especialidades/urologia" element={<Especialidades especialidade={"Urologia"} />} />  
-          <Route path="/especialidades/cronicas" element={<Especialidades especialidade={"Cronicas"} />} />
+          <Route path="/especialidades/cronicas" element={<Especialidades especialidade={"Crônicas"} />} />
           <Route path="/especialidades/oftalmologia" element={<Especialidades especialidade={"Oftalmologia"} />} />
           <Route path="/servicos/agendar-exame" element={<Agendar />} />
           <Route path="/servicos/acompanhar-exame" element={<Consultar />} />

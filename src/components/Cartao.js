@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom';
 function Cartao({texto, imagem, titulo, botaoTexto, link, botaoTipo}){
   
   return(    
-    <Card style={{ width: '18rem', height:'22rem' }}>
-      <Card.Img variant="top" src={imagem} />
+    <Card className="shadow-sm" style={{ width: '18rem', height:'22rem' }}>
+      <Card.Img className="shadow-sm" variant="top" src={imagem} />
       <Card.Title> {titulo} </Card.Title>
       <Card.Text>                  
         {texto}

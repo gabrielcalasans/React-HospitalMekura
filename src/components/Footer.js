@@ -1,5 +1,5 @@
 import {SiFacebook, SiTwitter, SiInstagram} from 'react-icons/si';
-import {BsGithub} from 'react-icons/bs';
+import {BsGithub, BsLinkedin} from 'react-icons/bs';
 import {Container, Row} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
@@ -20,6 +20,9 @@ function Footer(){
             </a>
             <a href="https://github.com/gabrielcalasans">
               <BsGithub />
+            </a>
+             <a href="https://www.linkedin.com/in/gabriel-calasans-689241232/">
+              <BsLinkedin />
             </a>
           </div>        
         </Row>

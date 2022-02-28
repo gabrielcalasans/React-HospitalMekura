@@ -89,7 +89,14 @@ function Header() {
                   </Dropdown.Item>                   
                 </Dropdown.Menu>
                 
-              </Dropdown>             
+              </Dropdown>
+              
+              <Nav.Link>
+                <Link style={{ textDecoration: 'none' }} className="text-light" to="/sobre-nos">
+                  Sobre nós 
+                </Link>   
+              </Nav.Link>
+              
             </Nav>
             <Nav>
               <Nav.Link>
