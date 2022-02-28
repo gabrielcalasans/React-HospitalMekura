@@ -13,7 +13,7 @@ import logo from '../images/logo.png';
 
 function Header() {
   return( 
-      <Navbar collapseOnSelect expand="lg" bg="success" variant="dark" fixed="top">
+      <Navbar collapseOnSelect expand="lg" bg="success" variant="dark" fixed="top" className="position-sticky ps-0 shadow" >
         <Container>          
           <Link to="/" style={{ textDecoration: 'none' }}>    
             <Navbar.Brand> 

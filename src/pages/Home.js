@@ -11,7 +11,7 @@ function Home() {
   
   return (
     <div>
-      <Sliders />
+      <Sliders />      
       <Container className="conteudo">
         <Row align="center">
           

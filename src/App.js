@@ -23,10 +23,10 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/contato" element={<Contato />} />         
-          <Route path="/especialidades/cardiologia" element={<Especialidades />} /> 
-          <Route path="/especialidades/urologia" element={<Especialidades />} />  
-          <Route path="/especialidades/cronicas" element={<Especialidades />} />
-          <Route path="/especialidades/oftalmologia" element={<Especialidades />} />
+          <Route path="/especialidades/cardiologia" element={<Especialidades especialidade={"Cardiologia"} />} /> 
+          <Route path="/especialidades/urologia" element={<Especialidades especialidade={"Urologia"} />} />  
+          <Route path="/especialidades/cronicas" element={<Especialidades especialidade={"Cronicas"} />} />
+          <Route path="/especialidades/oftalmologia" element={<Especialidades especialidade={"Oftalmologia"} />} />
           <Route path="/servicos/agendar-exame" element={<Agendar />} />
           <Route path="/servicos/acompanhar-exame" element={<Consultar />} />
         </Routes>      

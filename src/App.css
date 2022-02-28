@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .App-logo {
@@ -55,11 +59,12 @@
   padding-bottom: 10px;
 }
 
-.rodape{
-  padding: 25px;
+.rodape{  
   width: 100%;
   height: 150px;
   background-color: lightgray;
+  
+  margin-top: auto;
 }
 
 .social a{
@@ -69,7 +74,7 @@
 }
 
 .socialGrupo{
-  padding-bottom: 8px;
+  padding: 8px;
 }
 
 .listaLinks li {

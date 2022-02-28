@@ -1,10 +1,14 @@
-function Contato() {
+import {Container, Row, Col} from 'react-bootstrap';
+
+function Especialidades({especialidade}) {
   return (
-    <div>
-      <h1>Contato</h1>
-      <p>Contéudo da página</p>
-    </div>
+    <Container class="conteudo">
+      <Row>
+        <h1>{especialidade}</h1>
+      </Row>
+    
+    </Container>
   )  
 }
 
-export default Contato;
+export default Especialidades;
