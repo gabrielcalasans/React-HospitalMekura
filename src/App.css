@@ -45,3 +45,11 @@
 .logoTexto {
   font-family: 'Caveat', cursive;
 }
+
+.carouselCaption{
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.conteudo{
+  padding-top: 8px;
+}

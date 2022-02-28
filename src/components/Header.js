@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import {Navbar, Container, Nav, NavDropdown, Dropdown, Row, Col, Figure} from 'react-bootstrap';
+import {Navbar, Container, Nav, Figure, Dropdown} from 'react-bootstrap';
 import {BsTelephonePlusFill, BsCalendar3, BsCalendar2Check} from 'react-icons/bs';
 import {GoHome} from 'react-icons/go';
 import{MdOutlineHomeRepairService} from 'react-icons/md';
@@ -12,8 +12,8 @@ import {ImEye} from 'react-icons/im';
 import logo from '../images/logo.png';
 
 function Header() {
-  return(     
-      <Navbar collapseOnSelect expand="lg" bg="success" variant="dark">
+  return( 
+      <Navbar collapseOnSelect expand="lg" bg="success" variant="dark" fixed="top">
         <Container>          
           <Link to="/" style={{ textDecoration: 'none' }}>    
             <Navbar.Brand> 
@@ -103,6 +103,7 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+ 
     
   )
 }
