@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.itensNavbar {
+  font-family: 'Montserrat', sans-serif; 
+  
+}
+
+.logoTexto {
+  font-family: 'Caveat', cursive;
+}

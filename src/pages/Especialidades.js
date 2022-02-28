@@ -1,10 +1,10 @@
-function Empresa() {
+function Contato() {
   return (
     <div>
-      <h1>Empresa</h1>
+      <h1>Contato</h1>
       <p>Contéudo da página</p>
     </div>
   )  
 }
 
-export default Empresa;
+export default Contato;
