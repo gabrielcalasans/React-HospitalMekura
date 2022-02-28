@@ -52,4 +52,27 @@
 
 .conteudo{
   padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+.rodape{
+  padding: 25px;
+  width: 100%;
+  height: 150px;
+  background-color: lightgray;
+}
+
+.social a{
+  padding: 5px;
+  color: green;
+  
+}
+
+.socialGrupo{
+  padding-bottom: 8px;
+}
+
+.listaLinks li {
+  padding: 5px;
+  color: green;
 }

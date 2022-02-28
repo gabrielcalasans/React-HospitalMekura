@@ -2,7 +2,10 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
+
 import Home from './pages/Home';
+
 import Contato from './pages/Contato';
 import Especialidades from './pages/Especialidades';
 
@@ -26,7 +29,8 @@ function App() {
           <Route path="/especialidades/oftalmologia" element={<Especialidades />} />
           <Route path="/servicos/agendar-exame" element={<Agendar />} />
           <Route path="/servicos/acompanhar-exame" element={<Consultar />} />
-        </Routes>
+        </Routes>      
+        <Footer />
       </Router>
     </div>
   );
