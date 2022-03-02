@@ -11,6 +11,7 @@
     "json-server": "^0.17.0",
     "react-bootstrap": "^2.1.2",
     "react-bootstrap-maskedinput": "^0.5.0",
+    "react-hook-form": "^7.27.1",
     "react-icons": "^4.3.1",
     "react-popper": "^2.2.5",
     "react-router-dom": "^6.2.1",
