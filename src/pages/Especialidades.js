@@ -56,11 +56,11 @@ function Especialidades({especialidade}) {
   return (
     <Container class="conteudo">
       <Row>        
-        <h1>{especialidade}</h1>
+        <h1 className="logoTexto">{especialidade}</h1>
       </Row>
       <Row>
         <Col align="justify" sm={12} md={6} >
-          {escolheTexto(especialidade)}
+          <p className="text-secondary itensNavbar">{escolheTexto(especialidade)}</p>
         </Col>
         <Col sm={12} md={6}>
           <img src={escolheImagem(especialidade)} className="img-fluid shadow-sm rounded mx-auto" />
