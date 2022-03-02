@@ -31,7 +31,7 @@ function Contato() {
             <HiMail className="text-danger" /><span className="itensNavbar"> gcalasans71@gmail.com </span>
           </p>
           <p>
-            <a className="text-dark itensNavbar"href="https://www.github.com/gabrielcalasans" style={{textDecoration: 'none'}}><BsGithub /> Github</a>
+            <a className="text-dark itensNavbar"href="https://www.github.com/gabrielcalasans" style={{textDecoration: 'none'}}><BsGithub /> Githubs</a>
           </p>
         </Col>
       </Row>
