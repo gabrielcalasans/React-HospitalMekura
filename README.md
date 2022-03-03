@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Projeto Hospital Mekura
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto é relativamente simples, foi criado principalmente para o exercício dos aprendizados utilizando React. Os tópicos e pacotes trabalhados foram:
 
-## Available Scripts
+## React-Bootstrap
 
-In the project directory, you can run:
+No projeto foi utilizado o pacote **React-Bootstrap** para estilizacação dos componentes. É interessante destacar o uso de:
+- **Carousel** na página inicial;
+- **Cards** na página inicial:
+  - Os cards foram "componentizados". Nesse sentido, parâmetros são passados do arquivo Home.js para um componente Cartao.js, lá é criado um cartão de acordo com as propriedades.
+- **Navbar e Footer** ambos responsivos baseados na ideia de "mobile first";
+- Além disso, as classes CSS do Bootstrap também foram utilizadas para alterar elementos visuais da página **(texto, botões, formulários, etc)**.
 
-### `npm start`
+## React-Icons
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto fez uso do pacote **React-Icons** para a utilização de ícones em diversas seções da página.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## React-Router
 
-### `npm test`
+O pacote **React-Router** foi utilizado para fazer o roteamento entre as páginas e direcionar a aplicação para o modelo SPA - Single Page Applications. É destacável a organização dos arquivos nas pastas, a fim de que tudo mantenha-se num padrão compreensível. Com o pacote React-Router, foi possível a criação de:
+- Aplicação *SPA - Single Page Application*;
+- "Reutilização" do componente **Especialidades.js** de acordo com o endereço. O componente em questão é um só e é passado o parâmetro contendo o nome da especialidade, dentro de Especialidades.js há um switch que altera a renderização de acordo com o acessado (**Renderização Condicional**).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## React-Hook-Forms
 
-### `npm run build`
+O pacote **React-Hook-Forms** foi utilizado na página "agendar-exame" para validação dos dados antes do envio, também será utilizado na "acompanhar-exame". Foi utilizado principalmente em conjunto com React-Bootstrap e suas estilizações de formulário.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Ainda não implementado:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ainda não foram implementados, mas há o desejo de utilizar o pacote React-Axios, para interação com o backend da aplicação. A linguagem escolhida para o backend foi o **PHP** em conjunto com o banco **MySQL**. A principal motivação para isso foi buscar entender como funciona a integração do React com linguagens diferentes de JavaScript.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Todas as imagens foram encontradas no Google, as informações no projeto são fictícias.*
