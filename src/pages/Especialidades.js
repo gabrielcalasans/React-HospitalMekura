@@ -54,7 +54,7 @@ function Especialidades({especialidade}) {
   
   
   return (
-    <Container class="conteudo">
+    <Container className="conteudo">
       <Row>        
         <h1 className="logoTexto">{especialidade}</h1>
       </Row>

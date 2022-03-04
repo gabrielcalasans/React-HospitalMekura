@@ -25,9 +25,13 @@ O pacote **React-Router** foi utilizado para fazer o roteamento entre as página
 
 O pacote **React-Hook-Forms** foi utilizado na página "agendar-exame" para validação dos dados antes do envio, também será utilizado na "acompanhar-exame". Foi utilizado principalmente em conjunto com React-Bootstrap e suas estilizações de formulário.
 
+## React-Axios
+
+O pacote **React-Axios** foi utilizado para o envio de dados até um arquivo php (Agendar.js) para que então fosse inserido no banco um cadastro simples. A estrutura da tabela no banco é simples, apenas para exercício da integração entre React e PHP + MySQL.
+
 ## Ainda não implementado:
 
-Ainda não foram implementados, mas há o desejo de utilizar o pacote React-Axios, para interação com o backend da aplicação. A linguagem escolhida para o backend foi o **PHP** em conjunto com o banco **MySQL**. A principal motivação para isso foi buscar entender como funciona a integração do React com linguagens diferentes de JavaScript.
+Acompanhar Exame ainda não foi implementada. 
 
 ##
 
