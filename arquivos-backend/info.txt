@@ -1,0 +1,5 @@
+## Informações importantes:
+- A senha do banco foi alterada para 'admin' no arquivo DbConnect.php;
+- Esses arquivos devem ficar em uma pasta com nome de 'api' na raiz do servidor;
+- A porta utilizada no servidor Apache foi 80, padrão do MAMP. Já a porta MySQL foi 3306;
+- O banco é simples, embora tenha sido necessário alterar as configurações do banco para que aceitasse formatos inválidos de data no campo 'data'.

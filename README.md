@@ -9,6 +9,7 @@ No projeto foi utilizado o pacote **React-Bootstrap** para estilizacação dos c
 - **Cards** na página inicial:
   - Os cards foram "componentizados". Nesse sentido, parâmetros são passados do arquivo Home.js para um componente Cartao.js, lá é criado um cartão de acordo com as propriedades.
 - **Navbar e Footer** ambos responsivos baseados na ideia de "mobile first";
+- **Modal** na página de consulta de exame;
 - Além disso, as classes CSS do Bootstrap também foram utilizadas para alterar elementos visuais da página **(texto, botões, formulários, etc)**.
 
 ## React-Icons
@@ -27,11 +28,8 @@ O pacote **React-Hook-Forms** foi utilizado na página "agendar-exame" para vali
 
 ## React-Axios
 
-O pacote **React-Axios** foi utilizado para o envio de dados até um arquivo php (Agendar.js) para que então fosse inserido no banco um cadastro simples. A estrutura da tabela no banco é simples, apenas para exercício da integração entre React e PHP + MySQL.
+O pacote **React-Axios** foi utilizado para o envio de dados até um arquivo php (no arquivo Agendar.js) para que então fosse inserido no banco um cadastro simples. A estrutura da tabela no banco é simples, apenas para exercício da integração entre React e PHP + MySQL. Além do POST, o método GET é utilizado na página de acompanhar exame em conjunto com react hooks para exibir em um modal as consultas salvas.
 
-## Ainda não implementado:
-
-Acompanhar Exame ainda não foi implementada. 
 
 ##
 
